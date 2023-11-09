@@ -73,5 +73,6 @@ int main(){
     p1 = p;
     leggiFilm(dim, p);
     stampaFilm(p1, dim);
+    free(p); //se non si fa free si verifica un memory leak -> perdita di memoria
     return 0;
 }
