@@ -72,7 +72,4 @@ int main()
     scanf("%d", &n);
     int sommaMult = somma(lista , n);
     printf("la somma dei multiplo e %d", sommaMult);
-
-
-
 }
