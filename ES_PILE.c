@@ -39,7 +39,6 @@ void stampaPila(Node* head){
     }
 }
 
-
 int main(){
     int n;
     Node* head = NULL;
